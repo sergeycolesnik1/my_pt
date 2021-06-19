@@ -1,4 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .wraper {
+  padding: 0;
+  margin: 0;
   max-width: 1440px;
   background-color: #047533;
 }
@@ -199,25 +206,28 @@ button:hover {
 }
 
 .main {
-  width: 100%;
+  min-width: 250px;
   height: 1120px;
-  margin: 50px 0;
+  margin: 0;
+  padding: 0;
   display: none;
+  text-align: center;
+  overflow: hidden;
 }
 
 .about {
-  margin: 20px auto;
   position: relative;
-  width: 280px;
+  margin: 50px auto;
+  width: 250px;
   display: block;
 }
 
 .about__box {
   position: absolute;
   top: 0;
-  margin: 20px auto;
-  width: 280px;
-  padding: 5px;
+  left: 0;
+  width: 260px;
+  padding: 0px;
   text-align: center;
   background-color: cadetblue;
   opacity: 1;
@@ -226,9 +236,9 @@ button:hover {
 .about__box2 {
   position: absolute;
   top: 0;
-  margin: 20px auto;
-  width: 280px;
-  padding: 5px;
+  left: 0;
+  width: 260px;
+  padding: 0px;
   text-align: center;
   background-color: cadetblue;
   opacity: 0;
@@ -236,7 +246,7 @@ button:hover {
 
 .about__title {
   margin: 10px auto;
-  width: 270px;
+  width: 250px;
   font-size: 30px;
   font-weight: 600;
   color: mediumblue;
@@ -244,7 +254,7 @@ button:hover {
 
 .about__text {
   margin: 10px auto;
-  width: 270px;
+  width: 250px;
   text-align: left;
   font-size: 20px;
   font-weight: 500;
@@ -253,7 +263,7 @@ button:hover {
 
 .about__img {
   margin: 0 auto;
-  width: 260px;
+  width: 250px;
   height: 300px;
   overflow: hidden;
   background-image: url("../images/my-foto.jpg");
@@ -318,15 +328,16 @@ button:hover {
 }
 
 .footer {
-  min-width: 280px;
+  min-width: 260px;
   height: 80px;
   background-color: #06023f;
+  margin: 0;
 }
 
 .footer__block {
-  margin: 0 auto;
+  margin: 0;
   padding-top: 25px;
-  width: 260px;
+  width: 100%;
   text-align: center;
 }
 
@@ -339,6 +350,7 @@ button:hover {
   position: relative;
   min-width: 280px;
   height: 800px;
+  overflow: hidden;
 }
 
 .article__list {
@@ -407,7 +419,7 @@ a {
 
 @media (min-width: 600px) {
   .articles {
-    height: 500px;
+    height: 550px;
   }
   .articles__title {
     width: 500px;
