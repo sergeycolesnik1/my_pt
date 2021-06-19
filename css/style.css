@@ -201,11 +201,12 @@ button:hover {
 .main {
   width: 100%;
   height: 1120px;
+  margin: 50px 0;
   display: none;
 }
 
 .about {
-  margin: 0 auto;
+  margin: 20px auto;
   position: relative;
   width: 280px;
   display: block;
@@ -325,7 +326,7 @@ button:hover {
 .footer__block {
   margin: 0 auto;
   padding-top: 25px;
-  width: 280px;
+  width: 260px;
   text-align: center;
 }
 
@@ -337,7 +338,7 @@ button:hover {
 .articles {
   position: relative;
   min-width: 280px;
-  height: 880px;
+  height: 740px;
 }
 
 .article__list {
@@ -345,7 +346,7 @@ button:hover {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   opacity: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -406,7 +407,7 @@ a {
 
 @media (min-width: 600px) {
   .articles {
-    height: 580px;
+    height: 500px;
   }
   .articles__title {
     width: 500px;
@@ -419,7 +420,7 @@ a {
 
 @media (min-width: 1000px) {
   .articles {
-    height: 480px;
+    height: 400px;
   }
   .articles__title {
     width: 800px;
