@@ -338,7 +338,7 @@ button:hover {
 .articles {
   position: relative;
   min-width: 280px;
-  height: 740px;
+  height: 800px;
 }
 
 .article__list {
