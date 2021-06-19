@@ -208,7 +208,7 @@ button:hover {
 .main {
   min-width: 250px;
   height: 1120px;
-  margin: 0;
+  margin: 20px 0 150px;
   padding: 0;
   display: none;
   text-align: center;
@@ -226,8 +226,7 @@ button:hover {
   top: 0;
   left: 0;
   width: 260px;
-  padding: 0px;
-  text-align: center;
+  padding: 30px 0;
   background-color: cadetblue;
   opacity: 1;
 }
@@ -237,8 +236,7 @@ button:hover {
   top: 0;
   left: 0;
   width: 260px;
-  padding: 0px;
-  text-align: center;
+  padding: 30px 0;
   background-color: cadetblue;
   opacity: 0;
 }
@@ -252,7 +250,7 @@ button:hover {
 }
 
 .about__text {
-  margin: 10px auto;
+  margin: 20px auto;
   width: 250px;
   text-align: left;
   font-size: 20px;
@@ -348,7 +346,8 @@ button:hover {
 .articles {
   position: relative;
   min-width: 280px;
-  height: 800px;
+  height: 700px;
+  margin: 50px 0;
 }
 
 .article__list {
@@ -417,7 +416,7 @@ a {
 
 @media (min-width: 600px) {
   .articles {
-    height: 550px;
+    height: 450px;
   }
   .articles__title {
     width: 500px;
