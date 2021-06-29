@@ -8,8 +8,11 @@ let abBx = document.querySelector('.about__box');
 let abBx2 = document.querySelector('.about__box2');
 let arLs2 = document.querySelector('.article__list2');
 let arLs = document.querySelector('.article__list');
+let newLs3 = document.querySelector('.news__article-list3');
+let newLs4 = document.querySelector('.news__article-list4');
 
 
+console.log(newLs4);
 
 
 function Switching() {
@@ -19,9 +22,11 @@ function Switching() {
         arLs2.style.opacity = 1;
         abBx2.style.opacity = 1;
         abBx.style.opacity = 0;
-        swBox.style.opacity = 0;
-        swBt.style.opacity = 2;
+        swBox.style.opacity= 0;
+        swBt.style.opacity = 0;
         swBt2.style.opacity = 1;
+        newLs3.style.opacity = 0;
+        newLs4.style.opacity = 1;
         swBt.style.zIndex = 0;
         swBt2.style.zIndex = 4;
     }
@@ -34,7 +39,9 @@ function Switching() {
         abBx2.style.opacity = 0;
         abBx.style.opacity = 1;
         swBt.style.opacity = 1;
-        swBt2.style.opacity = 2;
+        swBt2.style.opacity = 0;
+        newLs3.style.opacity = 1;
+        newLs4.style.opacity = 0;
         swBt.style.zIndex = 4;
         swBt2.style.zIndex = 0;
     }
