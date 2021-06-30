@@ -220,9 +220,10 @@ button:hover {
 
 .main {
   min-width: 250px;
-  height: 1120px;
-  margin: 20px 0 150px;
+  height: 1320px;
+  margin: 20px 0 50px;
   padding: 0;
+  overflow: hidden;
   text-align: center;
 }
 
@@ -364,9 +365,10 @@ button:hover {
 .articles {
   position: relative;
   min-width: 280px;
-  height: 750px;
+  height: 700px;
   padding: 20px 0;
   margin: 20px 0;
+  overflow: hidden;
 }
 
 .article__list {
@@ -478,6 +480,7 @@ a {
   height: 800px;
   margin: 20px 0;
   padding: 20px 0;
+  overflow: hidden;
 }
 
 .news__article-list3 {
