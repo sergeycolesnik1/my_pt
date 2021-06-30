@@ -220,7 +220,7 @@ button:hover {
 
 .main {
   min-width: 250px;
-  height: 1320px;
+  height: 1380px;
   margin: 20px 0 50px;
   padding: 0;
   overflow: hidden;
@@ -477,7 +477,7 @@ a {
 .news__article {
   position: relative;
   min-width: 280px;
-  height: 800px;
+  height: 850px;
   margin: 20px 0;
   padding: 20px 0;
   overflow: hidden;
