@@ -12,24 +12,24 @@ body {
 
 .video__switch {
   position: fixed;
-  top: 5px;
+  bottom: 50px;
   right: 20px;
-  z-index: 4;
   cursor: pointer;
   opacity: 1;
   -webkit-transition: all 0.6s ease-in;
   transition: all 0.6s ease-in;
+  z-index: 4;
 }
 
 .video__switch2 {
   position: fixed;
-  top: 5px;
+  bottom: 50px;
   right: 20px;
-  z-index: 0;
   cursor: pointer;
   opacity: 0;
   -webkit-transition: all 0.6s ease-in;
   transition: all 0.6s ease-in;
+  z-index: 0;
 }
 
 .video__switch-text {
@@ -42,6 +42,7 @@ body {
   border-radius: 6px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  z-index: 5;
 }
 
 .video__switch-text:hover {
@@ -220,8 +221,8 @@ button:hover {
 
 .main {
   min-width: 250px;
-  height: 1380px;
-  margin: 20px 0 50px;
+  height: 1400px;
+  margin: 30px 0;
   padding: 0;
   overflow: hidden;
   text-align: center;
@@ -229,8 +230,8 @@ button:hover {
 
 .about {
   position: relative;
-  margin: 70px auto;
-  width: 260px;
+  margin: 0px auto;
+  width: 810px;
   display: block;
 }
 
@@ -238,7 +239,7 @@ button:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 250px;
+  width: 100%;
   padding: 10px;
   margin: 20px 0;
   border-radius: 10px;
@@ -251,7 +252,7 @@ button:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 250px;
+  width: 100%;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -262,25 +263,25 @@ button:hover {
 
 .about__title {
   margin: 10px auto;
-  width: 250px;
-  font-size: 30px;
+  max-width: 800px;
+  font-size: 50px;
   font-weight: 600;
   color: mediumblue;
 }
 
 .about__text {
   margin: 20px auto;
-  width: 250px;
+  max-width: 800px;
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
   color: mediumblue;
 }
 
 .about__img {
   margin: 0 auto;
-  width: 250px;
-  height: 300px;
+  max-width: 500px;
+  height: 600px;
   overflow: hidden;
   background-image: url("../images/my-foto.jpg");
   background-position: center;
@@ -289,57 +290,52 @@ button:hover {
   border-radius: 10px;
 }
 
-@media (min-width: 550px) {
+@media (max-width: 900px) {
   .main {
-    height: 980px;
+    height: 1000px;
   }
   .about {
-    width: 480px;
-  }
-  .about__box {
-    width: 480px;
-  }
-  .about__box2 {
+    margin: 0 auto;
     width: 480px;
   }
   .about__title {
-    width: 450px;
+    font-size: 40px;
   }
   .about__text {
-    width: 450px;
-    text-align: left;
+    font-size: 20px;
   }
   .about__img {
-    margin: 0 auto;
     width: 400px;
     height: 450px;
   }
 }
 
-@media (min-width: 850px) {
+@media (max-width: 600px) {
   .main {
-    height: 870px;
+    height: 1000px;
   }
   .about {
-    width: 810px;
+    width: 280px;
   }
   .about__box {
-    width: 810px;
+    padding: 10px 5px 50px;
   }
   .about__box2 {
-    width: 810px;
+    padding: 10px 5px 50px;
   }
   .about__title {
-    width: 650px;
+    margin: 0 auto;
+    width: 280px;
+    font-size: 30px;
   }
   .about__text {
-    width: 650px;
-    text-align: left;
+    margin: 0 auto;
+    width: 280px;
+    font-size: 20px;
   }
   .about__img {
-    margin: 0 auto;
-    width: 450px;
-    height: 450px;
+    width: 280px;
+    height: 300px;
   }
 }
 
@@ -365,7 +361,7 @@ button:hover {
 .articles {
   position: relative;
   min-width: 280px;
-  height: 700px;
+  height: 545px;
   padding: 20px 0;
   margin: 20px 0;
   overflow: hidden;
@@ -395,8 +391,8 @@ button:hover {
 
 .articles__title {
   margin: 0 auto;
-  width: 260px;
-  font-size: 30px;
+  min-width: 260px;
+  font-size: 50px;
   font-weight: 500;
   color: darkblue;
   text-align: center;
@@ -405,15 +401,16 @@ button:hover {
 
 .articles__text {
   margin: 15px auto;
-  width: 260px;
-  font-size: 20px;
+  padding: 0 50px;
+  max-width: 900px;
+  font-size: 30px;
   color: darkblue;
 }
 
 .bt-git {
-  margin: 20px auto;
-  width: 150px;
-  height: 35px;
+  margin: 40px auto;
+  max-width: 450px;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,6 +426,7 @@ button:hover {
           box-shadow: 0px 1px 5px blue;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  font-size: 30px;
   opacity: 1;
 }
 
@@ -443,41 +441,45 @@ a {
   color: blue;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 900px) {
   .articles {
     height: 450px;
   }
   .articles__title {
-    width: 500px;
     font-size: 40px;
   }
   .articles__text {
-    width: 450px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .articles {
-    height: 400px;
-  }
-  .articles__title {
-    width: 800px;
-    font-size: 40px;
-  }
-  .articles__text {
-    width: 800px;
+    max-width: 500px;
+    font-size: 20px;
   }
   .bt-git {
     width: 300px;
     font-size: 20px;
-    font-weight: 500;
+  }
+}
+
+@media (max-width: 600px) {
+  .articles {
+    height: 650px;
+  }
+  .articles__title {
+    width: 280px;
+    font-size: 30px;
+  }
+  .articles__text {
+    width: 280px;
+    padding: 0 10px;
+  }
+  .bt-git {
+    width: 260px;
+    font-size: 16px;
   }
 }
 
 .news__article {
   position: relative;
   min-width: 280px;
-  height: 850px;
+  height: 350px;
   margin: 20px 0;
   padding: 20px 0;
   overflow: hidden;
@@ -507,8 +509,8 @@ a {
 
 .news__article-title {
   margin: 0 auto;
-  width: 260px;
-  font-size: 30px;
+  max-width: 800px;
+  font-size: 60px;
   font-weight: 500;
   color: darkblue;
   text-align: center;
@@ -517,8 +519,9 @@ a {
 
 .news__article-text {
   margin: 15px auto;
-  width: 260px;
-  font-size: 20px;
+  padding: 0 50px;
+  max-width: 900px;
+  font-size: 30px;
   color: darkblue;
 }
 
@@ -534,20 +537,10 @@ a {
 }
 
 .news__article-btn a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 150px;
-  height: 32px;
+  padding: 15px 60px 10px;
   border: 1px solid blue;
   border-radius: 10px;
-  padding: 10px 30px;
+  font-size: 30px;
   margin: 15px auto;
   -webkit-box-shadow: 0px 1px 5px blue;
           box-shadow: 0px 1px 5px blue;
@@ -566,48 +559,42 @@ a {
   color: #07076b;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .news__article {
-    height: 450px;
-  }
-  .news__article-btn {
-    max-width: 450px;
-  }
-}
-
-@media (min-width: 600px) {
-  .news__article {
-    height: 350px;
-  }
-  .news__article-btn {
-    margin-top: 30px;
+    height: 340px;
   }
   .news__article-title {
-    width: 500px;
+    max-width: 500px;
     font-size: 40px;
   }
   .news__article-text {
-    width: 450px;
+    max-width: 500px;
+    font-size: 20px;
   }
-}
-
-@media (min-width: 1000px) {
-  .news__article {
-    height: 400px;
-  }
-  .news__article-title {
-    width: 800px;
-    font-size: 40px;
-  }
-  .news__article-text {
-    width: 800px;
+  .news__article-btn {
+    max-width: 500px;
   }
   .news__article-btn a {
-    width: 300px;
     font-size: 20px;
-    font-weight: 500;
+  }
+}
+
+@media (max-width: 600px) {
+  .news__article {
+    height: 420px;
   }
   .news__article-btn {
-    max-width: 800px;
+    margin-top: 20px;
+  }
+  .news__article-title {
+    width: 280px;
+    font-size: 30px;
+  }
+  .news__article-text {
+    padding: 0 10px;
+    width: 280px;
+  }
+  .news__article-btn a {
+    font-size: 16px;
   }
 }
