@@ -221,18 +221,18 @@ button:hover {
 
 .main {
   min-width: 250px;
-  height: 1400px;
+  height: 1300px;
   margin: 30px 0;
   padding: 0;
   overflow: hidden;
   text-align: center;
+  display: none;
 }
 
 .about {
   position: relative;
   margin: 0px auto;
   width: 810px;
-  display: block;
 }
 
 .about__box {
@@ -460,7 +460,7 @@ a {
 
 @media (max-width: 600px) {
   .articles {
-    height: 650px;
+    height: 750px;
   }
   .articles__title {
     width: 280px;
@@ -581,7 +581,7 @@ a {
 
 @media (max-width: 600px) {
   .news__article {
-    height: 420px;
+    height: 520px;
   }
   .news__article-btn {
     margin-top: 20px;
