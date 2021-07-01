@@ -312,7 +312,7 @@ button:hover {
 
 @media (max-width: 600px) {
   .main {
-    height: 1030px;
+    height: 1100px;
   }
   .about {
     width: 280px;
@@ -472,10 +472,10 @@ a {
 
 @media (max-width: 600px) {
   .articles {
-    height: 650px;
+    height: 700px;
   }
   .articles2 {
-    height: 580px;
+    height: 630px;
   }
   .articles__title {
     width: 280px;
@@ -608,10 +608,10 @@ a {
 
 @media (max-width: 600px) {
   .news__article {
-    height: 420px;
+    height: 470px;
   }
   .news__article4 {
-    height: 360px;
+    height: 410px;
   }
   .news__article-btn {
     margin-top: 20px;
