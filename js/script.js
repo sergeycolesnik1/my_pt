@@ -6,13 +6,13 @@ let swBox = document.querySelector('.video__box');
 let swBt2 = document.querySelector('.video__switch2');
 let abBx = document.querySelector('.about__box');
 let abBx2 = document.querySelector('.about__box2');
-let arLs2 = document.querySelector('.article__list2');
-let arLs = document.querySelector('.article__list');
-let newLs3 = document.querySelector('.news__article-list3');
-let newLs4 = document.querySelector('.news__article-list4');
+let arLs2 = document.querySelector('.articles2');
+let arLs =  document.querySelector('.articles');
+let newLs3 = document.querySelector('.news__article');
+let newLs4 = document.querySelector('.news__article4');
 
 
-console.log(abBx);
+console.log(arLs2);
 
 
 function Switching() {

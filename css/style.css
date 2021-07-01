@@ -312,7 +312,7 @@ button:hover {
 
 @media (max-width: 600px) {
   .main {
-    height: 1000px;
+    height: 1030px;
   }
   .about {
     width: 280px;
@@ -362,9 +362,10 @@ button:hover {
   position: relative;
   min-width: 280px;
   height: 545px;
-  padding: 20px 0;
+  padding: 10px 0;
   margin: 20px 0;
   overflow: hidden;
+  display: block;
 }
 
 .article__list {
@@ -373,9 +374,18 @@ button:hover {
   left: 0;
   width: 100%;
   padding: 5px;
-  display: block;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.articles2 {
+  position: relative;
+  min-width: 280px;
+  height: 545px;
+  padding: 10px 0;
+  margin: 0px 0;
+  overflow: hidden;
+  display: block;
 }
 
 .article__list2 {
@@ -384,7 +394,6 @@ button:hover {
   left: 0;
   width: 100%;
   padding: 10px;
-  display: none;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -396,7 +405,7 @@ button:hover {
   font-weight: 500;
   color: darkblue;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .articles__text {
@@ -445,6 +454,9 @@ a {
   .articles {
     height: 450px;
   }
+  .articles2 {
+    height: 400px;
+  }
   .articles__title {
     font-size: 40px;
   }
@@ -460,7 +472,10 @@ a {
 
 @media (max-width: 600px) {
   .articles {
-    height: 750px;
+    height: 650px;
+  }
+  .articles2 {
+    height: 580px;
   }
   .articles__title {
     width: 280px;
@@ -480,9 +495,10 @@ a {
   position: relative;
   min-width: 280px;
   height: 350px;
-  margin: 20px 0;
-  padding: 20px 0;
+  margin: 10px 0;
+  padding: 10px 0;
   overflow: hidden;
+  display: block;
 }
 
 .news__article-list3 {
@@ -491,9 +507,18 @@ a {
   left: 0;
   width: 100%;
   padding: 5px;
-  display: block;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.news__article4 {
+  position: relative;
+  min-width: 280px;
+  height: 350px;
+  margin: 10px 0;
+  padding: 10px 0;
+  overflow: hidden;
+  display: none;
 }
 
 .news__article-list4 {
@@ -502,7 +527,6 @@ a {
   left: 0;
   width: 100%;
   padding: 10px;
-  display: none;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -563,6 +587,9 @@ a {
   .news__article {
     height: 340px;
   }
+  .news__article4 {
+    height: 320px;
+  }
   .news__article-title {
     max-width: 500px;
     font-size: 40px;
@@ -572,7 +599,7 @@ a {
     font-size: 20px;
   }
   .news__article-btn {
-    max-width: 500px;
+    max-width: 400px;
   }
   .news__article-btn a {
     font-size: 20px;
@@ -581,7 +608,10 @@ a {
 
 @media (max-width: 600px) {
   .news__article {
-    height: 520px;
+    height: 420px;
+  }
+  .news__article4 {
+    height: 360px;
   }
   .news__article-btn {
     margin-top: 20px;
