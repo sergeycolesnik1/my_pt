@@ -230,15 +230,11 @@ button:hover {
 }
 
 .about {
-  position: relative;
   margin: 0px auto;
   width: 810px;
 }
 
 .about__box {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   padding: 10px;
   margin: 20px 0;
@@ -359,7 +355,6 @@ button:hover {
 }
 
 .articles {
-  position: relative;
   min-width: 280px;
   height: 545px;
   padding: 10px 0;
@@ -369,9 +364,6 @@ button:hover {
 }
 
 .article__list {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   padding: 5px;
   -webkit-transition: all 0.5s ease;
@@ -492,7 +484,6 @@ a {
 }
 
 .news__article {
-  position: relative;
   min-width: 280px;
   height: 350px;
   margin: 10px 0;
@@ -502,9 +493,6 @@ a {
 }
 
 .news__article-list3 {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   padding: 5px;
   -webkit-transition: all 0.5s ease;
