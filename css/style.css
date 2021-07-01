@@ -385,7 +385,7 @@ button:hover {
   padding: 10px 0;
   margin: 0px 0;
   overflow: hidden;
-  display: block;
+  display: none;
 }
 
 .article__list2 {
